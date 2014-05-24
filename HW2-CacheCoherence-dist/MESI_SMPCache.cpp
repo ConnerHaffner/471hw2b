@@ -73,8 +73,7 @@ MESI_SMPCache::RemoteReadService MESI_SMPCache::readRemoteAction(uint32_t addr){
       /*The tags matched -- need to do snoop actions*/
 
       /*Other cache has recently written the line*/
-      if(otherState->getState() == MESI_MODIFIED ||
-         otherState->getState() == MESI_EXCLUSIVE){
+      if(otherState->getState() == MESI_MODIFIED){
     
         /*Modified transitions to Shared on a remote Read*/ 
         otherState->changeStateTo(MESI_SHARED);
@@ -83,16 +82,19 @@ MESI_SMPCache::RemoteReadService MESI_SMPCache::readRemoteAction(uint32_t addr){
          *1)The line was not shared (the false param)
          *2)The line was provided by otherCache, as only it had it cached
         */
-        return MESI_SMPCache::RemoteReadService(false,true);
+        return MESI_SMPCache::RemoteReadService(false,false,true);
 
       /*Other cache has recently read the line*/
+      }else if(otherState->getState() == MESI_EXCLUSIVE){
+        otherState->changeStateTo(MESI_SHARED);
+        return MESI_SMPCache::RemoteReadService(false, true, true);
       }else if(otherState->getState() == MESI_SHARED){  
         
         /*Return a Remote Read Service indicating that 
          *1)The line was shared (the true param)
          *2)The line was provided by otherCache 
         */
-        return MESI_SMPCache::RemoteReadService(true,true);
+        return MESI_SMPCache::RemoteReadService(true,false,true);
 
       /*Line was cached, but invalid*/
       }else if(otherState->getState() == MESI_INVALID){ 
@@ -106,7 +108,7 @@ MESI_SMPCache::RemoteReadService MESI_SMPCache::readRemoteAction(uint32_t addr){
   }/*Done with other caches*/
 
   /*If all other caches were MESI_INVALID*/
-  return MESI_SMPCache::RemoteReadService(false,false);
+  return MESI_SMPCache::RemoteReadService(false,false,false);
 }
 
 
@@ -150,7 +152,7 @@ void MESI_SMPCache::readLine(uint32_t rdPC, uint32_t addr){
 
       if(rrs.isShared){
         numReadMissesServicedByShared++;
-      }else{
+      }else if(rrs.isModified){
         numReadMissesServicedByModified++;
       }
 

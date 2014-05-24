@@ -11,10 +11,12 @@ public:
   class RemoteReadService{
   public:
     bool isShared;
+    bool isModified;
     bool providedData;
   
-    RemoteReadService(bool shrd, bool prov){
+    RemoteReadService(bool shrd, bool modf, bool prov){
       isShared = shrd;
+      isModified = modf;
       providedData = prov;
     }
   
