@@ -1,0 +1,377 @@
+vips
+	CPU: 1
+		numReadMissesServicedByOthers: 7307, 7307
+		numInvalidatesSent: 38581, 30504
+		numWriteMisses: 38581, 30504
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 8299, 222
+		numReadHits: 5070150, 5070150
+		numReadMissesServicedByShared: 7052, 4892
+		CPUId: 1, 1
+		numReadRequestsSent: 157616, 157616
+		numReadMisses: 157616, 157616
+		numReadMissesServicedByModified: 255, 255
+		numWriteHits: 1568074, 1576151
+	CPU: 0
+		numReadMissesServicedByOthers: 14594, 14594
+		numInvalidatesSent: 840964, 830125
+		numWriteMisses: 840964, 830125
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 11182, 343
+		numReadHits: 22449674, 22449674
+		numReadMissesServicedByShared: 14263, 8992
+		CPUId: 0, 0
+		numReadRequestsSent: 195575, 195575
+		numReadMisses: 195575, 195575
+		numReadMissesServicedByModified: 331, 331
+		numWriteHits: 9166401, 9177240
+swaptions
+	CPU: 1
+		numReadMissesServicedByOthers: 379, 379
+		numInvalidatesSent: 565, 507
+		numWriteMisses: 565, 507
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 69, 11
+		numReadHits: 55727, 55727
+		numReadMissesServicedByShared: 354, 12
+		CPUId: 1, 1
+		numReadRequestsSent: 653, 653
+		numReadMisses: 653, 653
+		numReadMissesServicedByModified: 25, 25
+		numWriteHits: 15753, 15811
+	CPU: 0
+		numReadMissesServicedByOthers: 207, 207
+		numInvalidatesSent: 2656, 2321
+		numWriteMisses: 2656, 2321
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 355, 20
+		numReadHits: 388015, 388015
+		numReadMissesServicedByShared: 198, 16
+		CPUId: 0, 0
+		numReadRequestsSent: 9716, 9716
+		numReadMisses: 9716, 9716
+		numReadMissesServicedByModified: 9, 9
+		numWriteHits: 132143, 132478
+blackscholes
+	CPU: 1
+		numReadMissesServicedByOthers: 140, 140
+		numInvalidatesSent: 227, 225
+		numWriteMisses: 227, 225
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 9, 7
+		numReadHits: 29684, 29684
+		numReadMissesServicedByShared: 121, 2
+		CPUId: 1, 1
+		numReadRequestsSent: 183, 183
+		numReadMisses: 183, 183
+		numReadMissesServicedByModified: 19, 19
+		numWriteHits: 12751, 12753
+	CPU: 0
+		numReadMissesServicedByOthers: 30, 30
+		numInvalidatesSent: 1112, 997
+		numWriteMisses: 1112, 997
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 130, 15
+		numReadHits: 96014, 96014
+		numReadMissesServicedByShared: 23, 2
+		CPUId: 0, 0
+		numReadRequestsSent: 3004, 3004
+		numReadMisses: 3004, 3004
+		numReadMissesServicedByModified: 7, 7
+		numWriteHits: 37507, 37622
+fluidanimate
+	CPU: 1
+		numReadMissesServicedByOthers: 4794, 4794
+		numInvalidatesSent: 9701, 6065
+		numWriteMisses: 9701, 6065
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 5185, 1549
+		numReadHits: 4720524, 4720524
+		numReadMissesServicedByShared: 3166, 1388
+		CPUId: 1, 1
+		numReadRequestsSent: 16928, 16928
+		numReadMisses: 16928, 16928
+		numReadMissesServicedByModified: 1628, 1628
+		numWriteHits: 639205, 642841
+	CPU: 0
+		numReadMissesServicedByOthers: 3271, 3271
+		numInvalidatesSent: 44273, 26540
+		numWriteMisses: 44273, 26540
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 18562, 829
+		numReadHits: 10776910, 10776910
+		numReadMissesServicedByShared: 1926, 1517
+		CPUId: 0, 0
+		numReadRequestsSent: 47659, 47659
+		numReadMisses: 47659, 47659
+		numReadMissesServicedByModified: 1345, 1345
+		numWriteHits: 3451957, 3469690
+canneal
+	CPU: 1
+		numReadMissesServicedByOthers: 166, 166
+		numInvalidatesSent: 151, 73
+		numWriteMisses: 151, 73
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 90, 12
+		numReadHits: 4825, 4825
+		numReadMissesServicedByShared: 133, 4
+		CPUId: 1, 1
+		numReadRequestsSent: 315, 315
+		numReadMisses: 315, 315
+		numReadMissesServicedByModified: 33, 33
+		numWriteHits: 2464, 2542
+	CPU: 0
+		numReadMissesServicedByOthers: 106, 106
+		numInvalidatesSent: 2417, 1970
+		numWriteMisses: 2417, 1970
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 471, 24
+		numReadHits: 395486, 395486
+		numReadMissesServicedByShared: 96, 44
+		CPUId: 0, 0
+		numReadRequestsSent: 10462, 10462
+		numReadMisses: 10462, 10462
+		numReadMissesServicedByModified: 10, 10
+		numWriteHits: 142797, 143244
+dedup
+	CPU: 1
+		numReadMissesServicedByOthers: 214, 214
+		numInvalidatesSent: 1356, 1290
+		numWriteMisses: 1356, 1290
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 110, 44
+		numReadHits: 5617, 5617
+		numReadMissesServicedByShared: 146, 62
+		CPUId: 1, 1
+		numReadRequestsSent: 371, 371
+		numReadMisses: 371, 371
+		numReadMissesServicedByModified: 68, 68
+		numWriteHits: 7405, 7471
+	CPU: 0
+		numReadMissesServicedByOthers: 88, 88
+		numInvalidatesSent: 19801302, 19801141
+		numWriteMisses: 19801302, 19801141
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 204, 43
+		numReadHits: 647875, 647875
+		numReadMissesServicedByShared: 49, 10
+		CPUId: 0, 0
+		numReadRequestsSent: 3379, 3379
+		numReadMisses: 3379, 3379
+		numReadMissesServicedByModified: 39, 39
+		numWriteHits: 59863724, 59863885
+bodytrack
+	CPU: 1
+		numReadMissesServicedByOthers: 17184, 17184
+		numInvalidatesSent: 149597, 148209
+		numWriteMisses: 149597, 148209
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 2239, 851
+		numReadHits: 30953644, 30953644
+		numReadMissesServicedByShared: 15981, 2578
+		CPUId: 1, 1
+		numReadRequestsSent: 147568, 147568
+		numReadMisses: 147568, 147568
+		numReadMissesServicedByModified: 1203, 1203
+		numWriteHits: 2537187, 2538575
+	CPU: 0
+		numReadMissesServicedByOthers: 8844, 8844
+		numInvalidatesSent: 218292, 173842
+		numWriteMisses: 218292, 173842
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 45342, 892
+		numReadHits: 45112895, 45112895
+		numReadMissesServicedByShared: 7996, 180
+		CPUId: 0, 0
+		numReadRequestsSent: 227260, 227260
+		numReadMisses: 227260, 227260
+		numReadMissesServicedByModified: 848, 848
+		numWriteHits: 6093742, 6138192
+ferret
+	CPU: 1
+		numReadMissesServicedByOthers: 1934, 1934
+		numInvalidatesSent: 38289, 28253
+		numWriteMisses: 38289, 28253
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 10194, 158
+		numReadHits: 3426505, 3426505
+		numReadMissesServicedByShared: 1430, 1117
+		CPUId: 1, 1
+		numReadRequestsSent: 49052, 49052
+		numReadMisses: 49052, 49052
+		numReadMissesServicedByModified: 504, 504
+		numWriteHits: 1187419, 1197455
+	CPU: 0
+		numReadMissesServicedByOthers: 718, 718
+		numInvalidatesSent: 68131, 32995
+		numWriteMisses: 68131, 32995
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 35252, 116
+		numReadHits: 5142811, 5142811
+		numReadMissesServicedByShared: 613, 442
+		CPUId: 0, 0
+		numReadRequestsSent: 113935, 113935
+		numReadMisses: 113935, 113935
+		numReadMissesServicedByModified: 105, 105
+		numWriteHits: 2040554, 2075690
+freqmine
+	CPU: 1
+		numReadMissesServicedByOthers: 0, 0
+		numInvalidatesSent: 0, 0
+		numWriteMisses: 0, 0
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 0, 0
+		numReadHits: 0, 0
+		numReadMissesServicedByShared: 0, 0
+		CPUId: 1, 1
+		numReadRequestsSent: 0, 0
+		numReadMisses: 0, 0
+		numReadMissesServicedByModified: 0, 0
+		numWriteHits: 0, 0
+	CPU: 0
+		numReadMissesServicedByOthers: 0, 0
+		numInvalidatesSent: 186704, 146611
+		numWriteMisses: 186704, 146611
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 40093, 0
+		numReadHits: 3858328, 3858328
+		numReadMissesServicedByShared: 0, 0
+		CPUId: 0, 0
+		numReadRequestsSent: 61973, 61973
+		numReadMisses: 61973, 61973
+		numReadMissesServicedByModified: 0, 0
+		numWriteHits: 2568888, 2608981
+facesim
+	CPU: 1
+		numReadMissesServicedByOthers: 0, 0
+		numInvalidatesSent: 0, 0
+		numWriteMisses: 0, 0
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 0, 0
+		numReadHits: 0, 0
+		numReadMissesServicedByShared: 0, 0
+		CPUId: 1, 1
+		numReadRequestsSent: 0, 0
+		numReadMisses: 0, 0
+		numReadMissesServicedByModified: 0, 0
+		numWriteHits: 0, 0
+	CPU: 0
+		numReadMissesServicedByOthers: 0, 0
+		numInvalidatesSent: 2185, 1877
+		numWriteMisses: 2185, 1877
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 308, 0
+		numReadHits: 362356, 362356
+		numReadMissesServicedByShared: 0, 0
+		CPUId: 0, 0
+		numReadRequestsSent: 10183, 10183
+		numReadMisses: 10183, 10183
+		numReadMissesServicedByModified: 0, 0
+		numWriteHits: 126486, 126794
+x264
+	CPU: 1
+		numReadMissesServicedByOthers: 0, 0
+		numInvalidatesSent: 0, 0
+		numWriteMisses: 0, 0
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 0, 0
+		numReadHits: 0, 0
+		numReadMissesServicedByShared: 0, 0
+		CPUId: 1, 1
+		numReadRequestsSent: 0, 0
+		numReadMisses: 0, 0
+		numReadMissesServicedByModified: 0, 0
+		numWriteHits: 0, 0
+	CPU: 0
+		numReadMissesServicedByOthers: 0, 0
+		numInvalidatesSent: 2655, 2536
+		numWriteMisses: 2655, 2536
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 119, 0
+		numReadHits: 125619, 125619
+		numReadMissesServicedByShared: 0, 0
+		CPUId: 0, 0
+		numReadRequestsSent: 3722, 3722
+		numReadMisses: 3722, 3722
+		numReadMissesServicedByModified: 0, 0
+		numWriteHits: 51894, 52013
+streamcluster
+	CPU: 1
+		numReadMissesServicedByOthers: 5141, 5141
+		numInvalidatesSent: 5773, 5769
+		numWriteMisses: 5773, 5769
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 5579, 5575
+		numReadHits: 116626, 116626
+		numReadMissesServicedByShared: 143, 3
+		CPUId: 1, 1
+		numReadRequestsSent: 5219, 5219
+		numReadMisses: 5219, 5219
+		numReadMissesServicedByModified: 4998, 4998
+		numWriteHits: 44196, 44200
+	CPU: 0
+		numReadMissesServicedByOthers: 5512, 5512
+		numInvalidatesSent: 7278, 6961
+		numWriteMisses: 7278, 6961
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 5167, 4850
+		numReadHits: 565261, 565261
+		numReadMissesServicedByShared: 64, 14
+		CPUId: 0, 0
+		numReadRequestsSent: 14971, 14971
+		numReadMisses: 14971, 14971
+		numReadMissesServicedByModified: 5448, 5448
+		numWriteHits: 199653, 199970
+raytrace
+	CPU: 1
+		numReadMissesServicedByOthers: 191, 191
+		numInvalidatesSent: 45, 42
+		numWriteMisses: 45, 42
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 19, 16
+		numReadHits: 3084, 3084
+		numReadMissesServicedByShared: 167, 7
+		CPUId: 1, 1
+		numReadRequestsSent: 257, 257
+		numReadMisses: 257, 257
+		numReadMissesServicedByModified: 24, 24
+		numWriteHits: 1367, 1370
+	CPU: 0
+		numReadMissesServicedByOthers: 141, 141
+		numInvalidatesSent: 3767, 3201
+		numWriteMisses: 3767, 3201
+		numReadOnInvalidMisses: 0, 0
+		numWriteOnInvalidMisses: 0, 0
+		numWriteOnSharedMisses: 589, 23
+		numReadHits: 988085, 988085
+		numReadMissesServicedByShared: 126, 93
+		CPUId: 0, 0
+		numReadRequestsSent: 20596, 20596
+		numReadMisses: 20596, 20596
+		numReadMissesServicedByModified: 15, 15
+		numWriteHits: 405303, 405869
