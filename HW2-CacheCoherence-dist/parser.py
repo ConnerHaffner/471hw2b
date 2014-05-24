@@ -1,8 +1,9 @@
 
+import json
+
 def main(filename):
     results = {}
     current = ""
-    # current_prog = ""
     parsing_results = False
     items = []
 
@@ -32,12 +33,9 @@ def main(filename):
 
     f.close()
 
-    for test, results in results.iteritems():
-        print test
-        for cpu_id, nums in results.iteritems():
-            print "\tCPU: %s" %(cpu_id)
-            for item, num in nums.iteritems():
-                print "\t\t%s: %s" % (item, ", ".join(num))
+    f = open(filename.split('.')[0] + ".json", 'w')
+    f.write(json.dumps(results))
+    f.close()
 
 if __name__ == "__main__":
     import sys
