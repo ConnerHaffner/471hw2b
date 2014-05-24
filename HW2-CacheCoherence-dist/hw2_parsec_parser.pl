@@ -16,44 +16,48 @@ $filename=$ARGV[0];
 my @cols = ('CPUId', 'numReadHits', 'numReadMisses', 'numReadOnInvalidMisses', 'numReadRequestsSent', 'numReadMissesServicedByOthers', 'numReadMissesServicedByShared', 'numReadMissesServicedByModified', 'numWriteHits', 'numWriteMisses', 'numWriteOnSharedMisses', 'numWriteOnInvalidMisses', 'numInvalidatesSent');
 my $numCols = $#cols + 1;
 
-open (MYFILE, $filename);
-
+# States
 my $inBenchmark = 0;
-my $currBenchmark;
+my $protocolCount;
 
+# Holds final global benchmark data
+# Format:
+# benchmarks (array)
+# - name
+# - protocols (array)
+#   - name
+#   - data (array)
+#     - (array of numbers)
+#   - totals (array of numbers)
 my @benchmarks;
 
+# Holds local benchmark data
 my %benchmarkData;
 my @protocols;
 
-my $protocolCount;
+
+open (MYFILE, $filename);
 
 while ($in = <MYFILE>) {
   if ($in =~ /\[========== Running benchmark (.*?) ==========\]/) {
     # Start of new benchmark
     $inBenchmark = 1;
-    $currBenchmark = $1;
     %benchmarkData = (
-      'name' => $currBenchmark,
+      'name' => $1,
       'protocols' => []
     );
     @protocols = ();
     $protocolCount = -1;
-    #print $currBenchmark . "\n";
-    print $currBenchmark . "\n";
   } elsif ($inBenchmark) {
     if ($in =~ /\[----------    End of output    ----------\]/) {
       # End of current benchmark
       $inBenchmark = 0;
       $numProtocols = $#protocols + 1;
-      #print "  length: $len\n";
       # Print out data for each protocol
-      #for ($i = 0; $i < $numProtocols; $i++) {
+      print $benchmarkData{'name'} . "\n";
       foreach (@protocols) {
-        #%protocol = %{$protocols[$i]};
         $ref = $_;
         %protocol = %{$_};
-        #print "  $protocol{'name'}\n";
         print '  ' . $protocol{'name'} . "\n";
         @data = @{$protocol{'data'}};
 
@@ -75,10 +79,10 @@ while ($in = <MYFILE>) {
         }
       }
       # Add info to global data
+      # Be sure we copy before assigning otherwise it will get overwritten
       my @newProtocols = @protocols;
       $benchmarkData{'protocols'} = \@newProtocols;
-      my %newBenchData = %benchmarkData;
-      push @benchmarks, \%newBenchData;
+      push @benchmarks, {%benchmarkData};
     } elsif ($in =~ /Loaded Protocol Plugin .*\/(.*\.so)/) {
       # Add protocol
       my %dat = ('name' => $1, 'data' => []);
