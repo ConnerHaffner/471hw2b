@@ -1,0 +1,742 @@
+[PARSEC] Benchmarks to run:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Running benchmark blackscholes ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+in_4.txt
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 8 in_4.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+WARNING: Not enough work, reducing number of threads to match number of options.
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,68787,3007,0,3007,24,14,10,25318,945,128,0,945
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,15782,185,0,185,147,130,17,6746,132,8,0,132
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,15196,160,0,160,132,124,8,6519,131,6,0,131
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,14197,152,0,152,136,127,9,6433,129,4,0,129
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,14199,150,0,150,147,140,7,6434,128,4,0,128
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,68787,3007,0,3007,24,14,10,25433,830,13,0,830
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,15782,185,0,185,147,42,17,6749,129,5,0,129
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,15196,160,0,160,132,92,8,6520,130,5,0,130
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,14197,152,0,152,136,111,9,6434,128,3,0,128
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,14199,150,0,150,147,127,7,6435,127,3,0,127
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark bodytrack ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+sequenceB_1/
+sequenceB_1/BodyShapeParameters.txt
+sequenceB_1/CALIB/
+sequenceB_1/CALIB/Camera1.cal
+sequenceB_1/CALIB/Camera2.cal
+sequenceB_1/CALIB/Camera3.cal
+sequenceB_1/CALIB/Camera4.cal
+sequenceB_1/CAM1/
+sequenceB_1/CAM1/image0000.bmp
+sequenceB_1/CAM2/
+sequenceB_1/CAM2/image0000.bmp
+sequenceB_1/CAM3/
+sequenceB_1/CAM3/image0000.bmp
+sequenceB_1/CAM4/
+sequenceB_1/CAM4/image0000.bmp
+sequenceB_1/FG1/
+sequenceB_1/FG1/image0000.bmp
+sequenceB_1/FG2/
+sequenceB_1/FG2/image0000.bmp
+sequenceB_1/FG3/
+sequenceB_1/FG3/image0000.bmp
+sequenceB_1/FG4/
+sequenceB_1/FG4/image0000.bmp
+sequenceB_1/InitialPose.txt
+sequenceB_1/PoseParameters.txt
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc/bin/bodytrack sequenceB_1 4 1 5 1 0 8':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Threading with Posix Threads
+Number of threads : 8
+Using dataset : sequenceB_1/
+5 particles with 1 annealing layers
+
+Processing frame 0
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,28024659,202383,0,202383,7546,6436,1110,4855434,196260,45109,0,196260
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,12023473,108367,0,108367,4793,3568,1225,1110096,126089,1588,0,126089
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,6311467,10501,0,10501,4072,2572,1500,463686,7812,334,0,7812
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,5997066,11432,0,11432,4057,2851,1206,449170,7645,356,0,7645
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,6172998,10355,0,10355,3571,2644,927,457725,7742,376,0,7742
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,5742641,10832,0,10832,4550,3266,1284,429233,7299,379,0,7299
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,5714837,9375,0,9375,2974,1688,1286,423435,7154,318,0,7154
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,6122243,14934,0,14934,5690,4667,1023,466899,7870,382,0,7870
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,28024659,202383,0,202383,7546,1990,1110,4900045,151649,498,0,151649
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,12023473,108367,0,108367,4793,774,1225,1111319,124866,365,0,124866
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,6311467,10501,0,10501,4072,378,1500,463710,7788,310,0,7788
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,5997066,11432,0,11432,4057,602,1206,449215,7600,311,0,7600
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,6172998,10355,0,10355,3571,612,927,457770,7697,331,0,7697
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,5742641,10832,0,10832,4550,1107,1284,429278,7254,334,0,7254
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,5714837,9375,0,9375,2974,479,1286,423455,7134,298,0,7134
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,6122243,14934,0,14934,5690,2769,1023,466969,7800,312,0,7800
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark facesim ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/facesim/inst/amd64-linux.gcc/bin/facesim -h':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Usage: /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/facesim/inst/amd64-linux.gcc/bin/facesim [-restart <int>] [-lastframe <int>] [-threads <int>] [-serial] [-timing] 
+-restart    <no description available> (default 0)
+-lastframe  <no description available> (default 300)
+-threads    <no description available> (default 1)
+-serial     <no description available>
+-timing     <no description available>
+
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,362346,10193,0,10193,0,0,0,126513,2158,311,0,2158
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,362346,10193,0,10193,0,0,0,126824,1847,0,0,1847
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark ferret ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+corel/
+corel/__cass.env
+corel/corel.raw
+corel/lsh.lsh
+corel/map_corel.map
+queries/
+queries/coast.jpg
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/ferret/inst/amd64-linux.gcc/bin/ferret corel lsh queries 1 1 8 output.txt':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+(1,1)
+QUERY TIME: 2.770 seconds
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,2260634,10105,0,10105,1102,1002,100,900906,7336,2694,0,7336
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2661120,46888,0,46888,1404,1194,210,902534,37751,10214,0,37751
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,905797,3231,0,3231,1324,708,616,343404,2851,504,0,2851
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2761318,104117,0,104117,542,426,116,1091609,60955,32952,0,60955
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,15255,563,0,563,364,269,95,7286,441,170,0,441
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,13118,671,0,671,363,274,89,6383,559,234,0,559
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,16503,592,0,592,387,305,82,7793,484,175,0,484
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,14555,565,0,565,365,259,106,6993,418,172,0,418
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,2260634,10105,0,10105,1102,956,100,903450,4792,150,0,4792
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2661120,46888,0,46888,1404,1013,210,912616,27669,132,0,27669
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,905797,3231,0,3231,1324,630,616,343748,2507,160,0,2507
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2761318,104117,0,104117,542,389,116,1124469,28095,92,0,28095
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,15255,563,0,563,364,246,95,7386,341,70,0,341
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,13118,671,0,671,363,263,89,6546,396,71,0,396
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,16503,592,0,592,387,254,82,7893,384,75,0,384
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,14555,565,0,565,365,227,106,7089,322,76,0,322
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark freqmine ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+T10I4D100K_3.dat
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.315068 seconds, the FPgrowth cost 1.077319 seconds
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,3857788,62487,0,62487,0,0,0,2568192,187391,40637,0,187391
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,3857788,62487,0,62487,0,0,0,2608829,146754,0,0,146754
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark raytrace ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+octahedron.obj
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/raytrace/inst/amd64-linux.gcc/bin/rtview octahedron.obj -nodisplay -automove -nthreads 8 -frames 1 -res 1 1':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+initializing LRT ray tracer ...
+default BVH builder : binnedalldimssavespace
+Options:   automove = 1;
+     files = octahedron.obj;
+    frames = 1;
+ nodisplay = 1;
+  nthreads = 8;
+       res = [1, 1];
+
+Using memory framebuffer...
+Adding obj file: octahedron.obj
+Using auto camera...
+adding 6 vertices
+adding 8 triangles
+finalizing geometry
+vertices            6 (0.0703125 KB)
+triangles           8 (0.09375 KB)
+texture coordinates 0 (0 KB)
+No materials -> create dummy material
+building index
+using BVH builder default
+build time 0.039535
+done
+sceneAABB =[[[-1,-1,-1,0] ],[[1,1,1,0] ]]
+Starting 8 threads... done
+Rendering 1 frames... 
+Done
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,696930,20371,0,20371,121,99,22,262319,3773,637,0,3773
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1947,225,0,225,206,181,25,825,45,20,0,45
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,291847,243,0,243,198,162,36,143897,171,30,0,171
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1335,200,0,200,196,175,21,544,48,24,0,48
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1671,214,0,214,191,167,24,669,44,21,0,44
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1749,210,0,210,181,161,20,693,46,23,0,46
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,1156,155,0,155,154,133,21,551,44,19,0,44
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,1500,170,0,170,145,131,14,569,42,21,0,42
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,696930,20371,0,20371,121,95,22,262926,3166,30,0,3166
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1947,225,0,225,206,93,25,826,44,19,0,44
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,291847,243,0,243,198,137,36,143912,156,15,0,156
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1335,200,0,200,196,154,21,547,45,21,0,45
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1671,214,0,214,191,146,24,670,43,20,0,43
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1749,210,0,210,181,149,20,695,44,21,0,44
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,1156,155,0,155,154,126,21,552,43,18,0,43
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,1500,170,0,170,145,124,14,573,38,17,0,38
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark swaptions ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 8':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Swaption0: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption1: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption2: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption3: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption4: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption5: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption6: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption7: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Number of Simulations: 5,  Number of threads: 8 Number of swaptions: 8
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,397805,9735,0,9735,458,431,27,138868,2823,385,0,2823
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,55740,638,0,638,436,419,17,15732,579,66,0,579
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,55405,618,0,618,465,449,16,15606,585,59,0,585
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,55424,608,0,608,532,520,12,15635,556,54,0,556
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,55402,613,0,613,520,506,14,15625,559,54,0,559
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,55092,594,0,594,424,410,14,15483,574,60,0,574
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,55104,591,0,591,512,500,12,15481,583,61,0,583
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,55094,585,0,585,522,500,22,15504,553,53,0,553
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,397805,9735,0,9735,458,370,27,139216,2475,37,0,2475
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,55740,638,0,638,436,308,17,15789,522,9,0,522
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,55405,618,0,618,465,354,16,15659,532,6,0,532
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,55424,608,0,608,532,472,12,15682,509,7,0,509
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,55402,613,0,613,520,429,14,15673,511,6,0,511
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,55092,594,0,594,424,360,14,15538,519,5,0,519
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,55104,591,0,591,512,458,12,15535,529,7,0,529
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,55094,585,0,585,522,437,22,15551,506,6,0,506
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark fluidanimate ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+in_5K.fluid
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 8 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Number of particles: 4800 (0 skipped)
+Saving file "out.fluid"...
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,7929951,50903,0,50903,5316,1959,3357,3281045,68541,30597,0,68541
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1325998,4488,0,4488,1452,766,686,258091,2706,1584,0,2706
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1217993,4096,0,4096,1906,852,1054,245448,2694,1756,0,2694
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1816800,7472,0,7472,3640,2201,1439,319776,4491,3022,0,4491
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1814559,7222,0,7222,3341,1825,1516,325777,4273,2951,0,4273
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1730607,7347,0,7347,3599,2384,1215,359073,3875,2681,0,3875
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,1573466,7330,0,7330,3374,1831,1543,326453,4403,3210,0,4403
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,1411981,4831,0,4831,1543,978,565,279588,2943,1789,0,2943
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,7929951,50903,0,50903,5316,1721,3357,3309722,39864,1920,0,39864
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1325998,4488,0,4488,1452,641,686,259116,1681,559,0,1681
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1217993,4096,0,4096,1906,651,1054,246232,1910,972,0,1910
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1816800,7472,0,7472,3640,1646,1439,321301,2966,1497,0,2966
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1814559,7222,0,7222,3341,1347,1516,327234,2816,1494,0,2816
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1730607,7347,0,7347,3599,2026,1215,360588,2360,1166,0,2360
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,1573466,7330,0,7330,3374,1568,1543,328254,2602,1409,0,2602
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,1411981,4831,0,4831,1543,778,565,280813,1718,564,0,1718
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark vips ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+barbados_256x288.v
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,18743440,82230,0,82230,18184,17303,881,8031631,814245,7542,0,814245
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1184370,35636,0,35636,19558,19330,228,369606,9309,2006,0,9309
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1245471,36749,0,36749,22819,22576,243,386965,10059,2134,0,10059
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1453013,44466,0,44466,25831,25632,199,451880,11593,2434,0,11593
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1491528,45295,0,45295,21576,21368,208,464379,11734,2611,0,11734
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1056784,32709,0,32709,9486,9288,198,331184,7457,1610,0,7457
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,1449918,44279,0,44279,25473,25236,237,452890,11599,2490,0,11599
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,1085764,33617,0,33617,9731,9508,223,339902,8075,1618,0,8075
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,18743440,82230,0,82230,18184,16032,881,8038128,807748,1045,0,807748
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1184370,35636,0,35636,19558,18654,228,371395,7520,217,0,7520
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1245471,36749,0,36749,22819,20934,243,388877,8147,222,0,8147
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1453013,44466,0,44466,25831,23357,199,454124,9349,190,0,9349
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1491528,45295,0,45295,21576,19978,208,466802,9311,188,0,9311
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1056784,32709,0,32709,9486,7519,198,332604,6037,190,0,6037
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,1449918,44279,0,44279,25473,23796,237,455168,9321,212,0,9321
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,1085764,33617,0,33617,9731,9066,223,341313,6664,207,0,6664
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark x264 ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+eledream_32x18_1.y4m
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/x264/inst/amd64-linux.gcc/bin/x264 --quiet --qp 20 --partitions b8x8,i4x4 --ref 5 --direct auto --b-pyramid --weightb --mixed-refs --no-fast-pskip --me umh --subme 7 --analyse b8x8,i4x4 --threads 8 -o eledream.264 eledream_32x18_1.y4m':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 32x18@25/1fps, 0:0
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,145319,6029,0,6029,0,0,0,71303,6093,1363,0,6093
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,145319,6029,0,6029,0,0,0,72666,4730,0,0,4730
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,0,0,0,0,0,0,0,0,0,0,0,0
+/cse/courses/cse471/14sp/Benchmarks/parsec-2.1/bin/parsecmgmt: line 936: 11263 Segmentation fault      pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 -- /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/x264/inst/amd64-linux.gcc/bin/x264 --quiet --qp 20 --partitions b8x8,i4x4 --ref 5 --direct auto --b-pyramid --weightb --mixed-refs --no-fast-pskip --me umh --subme 7 --analyse b8x8,i4x4 --threads 8 -o eledream.264 eledream_32x18_1.y4m
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark canneal ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+10.nets
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 8 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Threadcount: 8
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 118
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,396187,10432,0,10432,111,86,25,143680,2531,507,0,2531
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,4301,275,0,275,159,140,19,2253,148,87,0,148
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,3325,240,0,240,156,143,13,1913,145,85,0,145
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,3328,243,0,243,158,144,14,1916,147,86,0,147
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,2994,233,0,233,152,138,14,1783,145,84,0,145
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,3687,253,0,253,149,137,12,2019,144,84,0,144
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,2699,199,0,199,120,105,15,1674,140,84,0,140
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,3061,214,0,214,132,123,9,1794,141,83,0,141
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,396187,10432,0,10432,111,82,25,144159,2052,28,0,2052
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,4301,275,0,275,159,38,19,2330,71,10,0,71
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,3325,240,0,240,156,121,13,1990,68,8,0,68
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,3328,243,0,243,158,136,14,1993,70,9,0,70
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,2994,233,0,233,152,133,14,1860,68,7,0,68
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,3687,253,0,253,149,122,12,2096,67,7,0,67
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,2699,199,0,199,120,104,15,1751,63,7,0,63
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,3061,214,0,214,132,110,9,1871,64,6,0,64
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark dedup ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+test.dat
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/kernels/dedup/inst/amd64-linux.gcc/bin/dedup -c -p -f -t 8 -i test.dat -o output.dat.ddp':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,653325,3443,0,3443,202,110,92,59867239,19801583,229,0,19801583
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,5590,420,0,420,256,184,72,7444,1361,113,0,1361
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1644,206,0,206,185,144,41,1183,173,37,0,173
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1019,193,0,193,164,112,52,959,165,39,0,165
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1252,184,0,184,175,135,40,1028,164,30,0,164
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1463,219,0,219,191,130,61,862,140,46,0,140
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,705,122,0,122,109,53,56,575,118,42,0,118
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,924,172,0,172,151,96,55,679,122,37,0,122
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,653325,3443,0,3443,202,85,92,59867383,19801439,85,0,19801439
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,5590,420,0,420,256,99,72,7516,1289,41,0,1289
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1644,206,0,206,185,117,41,1187,169,33,0,169
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,1019,193,0,193,164,106,52,967,157,31,0,157
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,1252,184,0,184,175,130,40,1031,161,27,0,161
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,1463,219,0,219,191,111,61,870,132,38,0,132
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,705,122,0,122,109,50,56,581,112,36,0,112
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,924,172,0,172,151,94,55,684,117,32,0,117
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark streamcluster ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 8 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 8':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+read 10 points
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,585761,30558,0,30558,21031,12857,8174,231626,10865,8443,0,10865
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,258281,20829,0,20829,20762,12109,8653,116793,9520,9185,0,9520
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,243923,21251,0,21251,21244,12942,8302,110568,8478,8083,0,8478
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,244164,21428,0,21428,21409,13083,8326,111342,8577,8129,0,8577
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,241143,21798,0,21798,21776,13079,8697,109398,8715,8405,0,8715
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,232611,21183,0,21183,21177,13019,8158,107570,8391,7980,0,8391
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,233438,21311,0,21311,21291,13113,8178,108186,8518,8152,0,8518
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,235894,21498,0,21498,21487,13135,8352,108768,8606,8211,0,8606
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,585761,30558,0,30558,21031,12837,8174,231890,10601,8179,0,10601
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,258281,20829,0,20829,20762,12018,8653,116797,9516,9181,0,9516
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,243923,21251,0,21251,21244,12919,8302,110569,8477,8082,0,8477
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,244164,21428,0,21428,21409,13049,8326,111344,8575,8127,0,8575
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+4,241143,21798,0,21798,21776,13061,8697,109399,8714,8404,0,8714
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+5,232611,21183,0,21183,21177,13011,8158,107571,8390,7979,0,8390
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+6,233438,21311,0,21311,21291,13100,8178,108187,8517,8151,0,8517
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+7,235894,21498,0,21498,21487,13119,8352,108769,8605,8210,0,8605
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,529 @@
+[PARSEC] Benchmarks to run:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Running benchmark blackscholes ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+in_4.txt
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 4 in_4.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,83394,2901,0,2901,56,48,8,31851,1034,114,0,1034
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,15452,171,0,171,143,127,16,6632,132,7,0,132
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,15145,163,0,163,131,121,10,6520,130,6,0,130
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,14399,157,0,157,151,144,7,6521,129,4,0,129
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,83394,2901,0,2901,56,37,8,31951,934,14,0,934
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,15452,171,0,171,143,53,16,6633,131,6,0,131
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,15145,163,0,163,131,82,10,6521,129,5,0,129
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,14399,157,0,157,151,110,7,6522,128,3,0,128
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark bodytrack ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+sequenceB_1/
+sequenceB_1/BodyShapeParameters.txt
+sequenceB_1/CALIB/
+sequenceB_1/CALIB/Camera1.cal
+sequenceB_1/CALIB/Camera2.cal
+sequenceB_1/CALIB/Camera3.cal
+sequenceB_1/CALIB/Camera4.cal
+sequenceB_1/CAM1/
+sequenceB_1/CAM1/image0000.bmp
+sequenceB_1/CAM2/
+sequenceB_1/CAM2/image0000.bmp
+sequenceB_1/CAM3/
+sequenceB_1/CAM3/image0000.bmp
+sequenceB_1/CAM4/
+sequenceB_1/CAM4/image0000.bmp
+sequenceB_1/FG1/
+sequenceB_1/FG1/image0000.bmp
+sequenceB_1/FG2/
+sequenceB_1/FG2/image0000.bmp
+sequenceB_1/FG3/
+sequenceB_1/FG3/image0000.bmp
+sequenceB_1/FG4/
+sequenceB_1/FG4/image0000.bmp
+sequenceB_1/InitialPose.txt
+sequenceB_1/PoseParameters.txt
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc/bin/bodytrack sequenceB_1 4 1 5 1 0 4':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Threading with Posix Threads
+Number of threads : 4
+Using dataset : sequenceB_1/
+5 particles with 1 annealing layers
+
+Processing frame 0
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,33656224,207378,0,207378,6781,6180,601,5255900,202660,45064,0,202660
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,18139480,123853,0,123853,9430,8567,863,1572373,133867,1826,0,133867
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,12253841,24981,0,24981,7859,7186,673,918134,15370,575,0,15370
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,12031039,20123,0,20123,5145,4522,623,893837,14940,547,0,14940
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,33656224,207378,0,207378,6781,478,601,5300344,158216,620,0,158216
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,18139480,123853,0,123853,9430,2090,863,1573656,132584,543,0,132584
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,12253841,24981,0,24981,7859,2076,673,918210,15294,499,0,15294
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,12031039,20123,0,20123,5145,246,623,893890,14887,494,0,14887
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark facesim ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/facesim/inst/amd64-linux.gcc/bin/facesim -h':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Usage: /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/facesim/inst/amd64-linux.gcc/bin/facesim [-restart <int>] [-lastframe <int>] [-threads <int>] [-serial] [-timing] 
+-restart    <no description available> (default 0)
+-lastframe  <no description available> (default 300)
+-threads    <no description available> (default 1)
+-serial     <no description available>
+-timing     <no description available>
+
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,362243,10296,0,10296,0,0,0,126434,2237,350,0,2237
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,362243,10296,0,10296,0,0,0,126784,1887,0,0,1887
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark ferret ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+corel/
+corel/__cass.env
+corel/corel.raw
+corel/lsh.lsh
+corel/map_corel.map
+queries/
+queries/coast.jpg
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/ferret/inst/amd64-linux.gcc/bin/ferret corel lsh queries 1 1 4 output.txt':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+(1,1)
+QUERY TIME: 2.583 seconds
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,2263506,8105,0,8105,471,390,81,901540,5434,1992,0,5434
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,5413775,150849,0,150849,1562,1303,259,1989775,98196,42990,0,98196
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,912752,2912,0,2912,1014,623,391,346393,2570,375,0,2570
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,22263,546,0,546,415,322,93,10421,402,152,0,402
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,2263506,8105,0,8105,471,340,81,903423,3551,109,0,3551
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,5413775,150849,0,150849,1562,1099,259,2032606,55365,159,0,55365
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,912752,2912,0,2912,1014,494,391,346641,2322,127,0,2322
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,22263,546,0,546,415,285,93,10494,329,79,0,329
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark freqmine ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+T10I4D100K_3.dat
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.301392 seconds, the FPgrowth cost 0.994776 seconds
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,3857626,62693,0,62693,0,0,0,2567984,187615,40782,0,187615
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,3857626,62693,0,62693,0,0,0,2608766,146833,0,0,146833
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark raytrace ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+octahedron.obj
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/raytrace/inst/amd64-linux.gcc/bin/rtview octahedron.obj -nodisplay -automove -nthreads 4 -frames 1 -res 1 1':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+initializing LRT ray tracer ...
+default BVH builder : binnedalldimssavespace
+Options:   automove = 1;
+     files = octahedron.obj;
+    frames = 1;
+ nodisplay = 1;
+  nthreads = 4;
+       res = [1, 1];
+
+Using memory framebuffer...
+Adding obj file: octahedron.obj
+Using auto camera...
+adding 6 vertices
+adding 8 triangles
+finalizing geometry
+vertices            6 (0.0703125 KB)
+triangles           8 (0.09375 KB)
+texture coordinates 0 (0 KB)
+No materials -> create dummy material
+building index
+using BVH builder default
+build time 0.039451
+done
+sceneAABB =[[[-1,-1,-1,0] ],[[1,1,1,0] ]]
+Starting 4 threads... done
+Rendering 1 frames... 
+Done
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,987976,20615,0,20615,91,73,18,405274,3999,693,0,3999
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2740,247,0,247,220,197,23,1242,47,21,0,47
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1790,235,0,235,211,180,31,737,47,20,0,47
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2002,227,0,227,205,184,21,791,49,24,0,49
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,987976,20615,0,20615,91,67,18,405943,3330,24,0,3330
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2740,247,0,247,220,64,23,1243,46,20,0,46
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1790,235,0,235,211,128,31,738,46,19,0,46
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2002,227,0,227,205,174,21,794,46,21,0,46
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark swaptions ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 4':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Swaption0: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption1: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption2: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption3: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Number of Simulations: 5,  Number of threads: 4 Number of swaptions: 4
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,390816,9843,0,9843,232,219,13,134280,2712,356,0,2712
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,55702,668,0,668,458,441,17,15735,569,60,0,569
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,55400,629,0,629,523,506,17,15630,561,57,0,561
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,55386,620,0,620,533,511,22,15622,555,52,0,555
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,390816,9843,0,9843,232,83,13,134608,2384,28,0,2384
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,55702,668,0,668,458,137,17,15789,515,6,0,515
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,55400,629,0,629,523,453,17,15681,510,6,0,510
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,55386,620,0,620,533,460,22,15668,509,6,0,509
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark fluidanimate ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+in_5K.fluid
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 4 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Number of particles: 4800 (0 skipped)
+Saving file "out.fluid"...
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,8879819,43671,0,43671,3401,1337,2064,3303496,49979,21320,0,49979
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2624326,9056,0,9056,2818,1657,1161,397827,5700,3296,0,5700
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,2591425,7969,0,7969,2331,1320,1011,418074,5112,3029,0,5112
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2566277,9660,0,9660,2196,1298,898,437816,5393,3135,0,5393
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,8879819,43671,0,43671,3401,1271,2064,3324048,29427,768,0,29427
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2624326,9056,0,9056,2818,900,1161,399971,3556,1152,0,3556
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,2591425,7969,0,7969,2331,695,1011,420213,2973,890,0,2973
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2566277,9660,0,9660,2196,992,898,440099,3110,852,0,3110
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark vips ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+barbados_256x288.v
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,19938365,120927,0,120927,8420,7853,567,8395119,821273,7836,0,821273
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2606754,80166,0,80166,22425,22176,249,807972,20266,4350,0,20266
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,2616423,79108,0,79108,31473,31202,271,810164,20110,4356,0,20110
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2329287,71080,0,71080,25102,24894,208,723079,18213,3747,0,18213
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,19938365,120927,0,120927,8420,6407,567,8402322,814070,633,0,814070
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,2606754,80166,0,80166,22425,18501,249,812090,16148,232,0,16148
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,2616423,79108,0,79108,31473,27502,271,814268,16006,252,0,16006
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,2329287,71080,0,71080,25102,22230,208,726630,14662,196,0,14662
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark x264 ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+eledream_32x18_1.y4m
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/x264/inst/amd64-linux.gcc/bin/x264 --quiet --qp 20 --partitions b8x8,i4x4 --ref 5 --direct auto --b-pyramid --weightb --mixed-refs --no-fast-pskip --me umh --subme 7 --analyse b8x8,i4x4 --threads 4 -o eledream.264 eledream_32x18_1.y4m':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 32x18@25/1fps, 0:0
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,132186,4480,0,4480,0,0,0,58275,3884,538,0,3884
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,132186,4480,0,4480,0,0,0,58813,3346,0,0,3346
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+/cse/courses/cse471/14sp/Benchmarks/parsec-2.1/bin/parsecmgmt: line 936: 10074 Segmentation fault      pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 -- /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/apps/x264/inst/amd64-linux.gcc/bin/x264 --quiet --qp 20 --partitions b8x8,i4x4 --ref 5 --direct auto --b-pyramid --weightb --mixed-refs --no-fast-pskip --me umh --subme 7 --analyse b8x8,i4x4 --threads 4 -o eledream.264 eledream_32x18_1.y4m
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark canneal ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+10.nets
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 4 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+Threadcount: 4
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 151
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,394533,10584,0,10584,117,100,17,142668,2545,531,0,2545
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,4528,300,0,300,174,146,28,2322,149,88,0,149
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,3925,289,0,289,184,166,18,2154,151,89,0,151
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,4258,300,0,300,192,174,18,2275,156,90,0,156
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,394533,10584,0,10584,117,81,17,143169,2044,30,0,2044
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,4528,300,0,300,174,63,28,2400,71,10,0,71
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,3925,289,0,289,184,129,18,2236,69,7,0,69
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,4258,300,0,300,192,132,18,2354,77,11,0,77
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark dedup ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+test.dat
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/kernels/dedup/inst/amd64-linux.gcc/bin/dedup -c -p -f -t 4 -i test.dat -o output.dat.ddp':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,649245,3393,0,3393,130,74,56,59864757,19801397,226,0,19801397
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1863,235,0,235,173,113,60,1666,216,53,0,216
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1102,176,0,176,152,100,52,985,159,41,0,159
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,5245,388,0,388,262,195,67,6855,1326,113,0,1326
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,649245,3393,0,3393,130,45,56,59864914,19801240,69,0,19801240
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,1863,235,0,235,173,38,60,1679,203,40,0,203
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,1102,176,0,176,152,80,52,988,156,38,0,156
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,5245,388,0,388,262,168,67,6924,1257,44,0,1257
+[PARSEC] [----------    End of output    ----------]
+
+[PARSEC] [========== Running benchmark streamcluster ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'pin -t /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MultiCacheSim_PinDriver.so -protos ~/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so,/homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so -numcaches 4 --  /cse/courses/cse471/14sp/Benchmarks/parsec-2.1/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 4':
+[PARSEC] [---------- Beginning of output ----------]
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MSI_SMPCache.so
+Loaded Protocol Plugin /homes/iws/haffncj/471/471hw2b/HW2-CacheCoherence-dist/MESI_SMPCache.so
+Using Reference Implementation /cse/courses/cse471/14sp/Assignments/HW2-CacheCoherence/Release/MESI_SMPCache.so
+PARSEC Benchmark Suite Version 2.1
+read 10 points
+In fini
+In fini loop
+In fini loop
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,479604,19873,0,19873,10404,3759,6645,178323,9411,7128,0,9411
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,150521,10468,0,10468,10394,3676,6718,66291,7407,7100,0,7407
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,131879,10686,0,10686,10639,3773,6866,56271,7382,7003,0,7382
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,149749,11407,0,11407,11398,3994,7404,64806,6943,6542,0,6943
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,479604,19873,0,19873,10404,3725,6645,178622,9112,6829,0,9112
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,150521,10468,0,10468,10394,3581,6718,66294,7404,7097,0,7404
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,131879,10686,0,10686,10639,3705,6866,56281,7372,6993,0,7372
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,149749,11407,0,11407,11398,3974,7404,64807,6942,6541,0,6942
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
