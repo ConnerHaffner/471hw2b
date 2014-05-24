@@ -82,12 +82,12 @@ MESI_SMPCache::RemoteReadService MESI_SMPCache::readRemoteAction(uint32_t addr){
          *1)The line was not shared (the false param)
          *2)The line was provided by otherCache, as only it had it cached
         */
-        return MESI_SMPCache::RemoteReadService(false,false,true);
+        return MESI_SMPCache::RemoteReadService(false,true,true);
 
       /*Other cache has recently read the line*/
       }else if(otherState->getState() == MESI_EXCLUSIVE){
         otherState->changeStateTo(MESI_SHARED);
-        return MESI_SMPCache::RemoteReadService(false, true, true);
+        return MESI_SMPCache::RemoteReadService(false, false, true);
       }else if(otherState->getState() == MESI_SHARED){  
         
         /*Return a Remote Read Service indicating that 
