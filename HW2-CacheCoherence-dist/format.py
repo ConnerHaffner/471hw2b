@@ -11,7 +11,7 @@ def main(filename):
         msi[testname] = {}
         for cpu, counters in results.iteritems():
             for counter, values in counters.iteritems():
-                if counter not in msi: msi[testname][counter] = "0"
+                if counter not in msi[testname]: msi[testname][counter] = "0"
                 prev = int(msi[testname][counter])
                 msi[testname][counter] = str(prev + int(values[0]))
 
@@ -20,7 +20,7 @@ def main(filename):
         mesi[testname] = {}
         for cpu, counters in results.iteritems():
             for counter, values in counters.iteritems():
-                if counter not in mesi: mesi[testname][counter] = "0"
+                if counter not in mesi[testname]: mesi[testname][counter] = "0"
                 prev = int(mesi[testname][counter])
                 mesi[testname][counter] = str(prev + int(values[1]))
 
